@@ -6,6 +6,7 @@ $(function () {
         if (e.keyCode === 13) {
             if ($(this).val() === '') {
                 alert('请输入您要的操作')
+                alert('s');
             } else {
                 //先读取本地存储原来的数据
                 var local = getDate();
